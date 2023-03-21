@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text_image_and_result {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  width: 80%;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 49px;
+  border-radius: 49px;
+background: linear-gradient(145deg, #626262, #535353);
+box-shadow:  30px 30px 60px #494949,
+             -30px -30px 60px #6f6f6f;
+}
+.text_image_and_result li {
+  display: flex;
+  flex-direction: column;
+}
+.text_image_and_result img {
+  height: 30rem;
+  padding: 15px;
+  border-radius: 20px;
+}
+.text_image_and_result .yayy .yay {
+  grid-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+.text_image_and_result .yayy .yay h5 {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.text_image_and_result .yayy .yay h5 b {
+  margin-left: 10px;
+  color: purple;
+}/*# sourceMappingURL=style.css.map */
